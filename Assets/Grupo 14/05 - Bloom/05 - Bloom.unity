@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 110939312}
   - component: {fileID: 110939311}
   - component: {fileID: 110939314}
+  - component: {fileID: 110939315}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -259,6 +260,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postProcessShader: {fileID: 4800000, guid: c5c05bc481b6d89459e940a2fa1b2752, type: 3}
   bloomSlider: {fileID: 1589158857}
+--- !u!114 &110939315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110939310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f73293ca429b24e4baf09b73d96c7c26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  sprintMultiplier: 2
+  smoothTime: 0.1
+  rotationSpeed: 3
+  maxVerticalAngle: 80
+  minVerticalAngle: -80
 --- !u!1 &174414641
 GameObject:
   m_ObjectHideFlags: 0
