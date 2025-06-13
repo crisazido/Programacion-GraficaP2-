@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GreyScale 1
-  m_Shader: {fileID: 4800000, guid: b6afc86c741c51b45921bf3679db0738, type: 3}
+  m_Name: GrayScale
+  m_Shader: {fileID: 4800000, guid: e8d8a7437d44eab4b89cf1d7984144a2, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -68,7 +68,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _GrayscaleAmount: 0
+    - _GrayScaleSlider: 0.03529412
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -78,7 +78,6 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
