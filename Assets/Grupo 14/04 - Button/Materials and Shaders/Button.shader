@@ -17,9 +17,9 @@ Shader "New Amplify Shader"
 
 		[Toggle(UNITY_UI_ALPHACLIP)] _UseUIAlphaClip ("Use Alpha Clip", Float) = 0
 		_TextureSample0("Texture Sample 0", 2D) = "white" {}
-		_GlowColor("GlowColor", Color) = (0.764151,0.764151,0.764151,0)
-		_GlowIntensity("_GlowIntensity", Float) = 5
-		_GlowOffset("GlowOffset", Vector) = (25,25,0,0)
+		_GlowColor("GlowColor", Color) = (0.5283019,0.5283019,0.5283019,0.5450981)
+		_GlowIntensity("_GlowIntensity", Float) = 1
+		_GlowOffset("GlowOffset", Vector) = (15,15,0,0)
 		_TextureSample1("Texture Sample 1", 2D) = "white" {}
 		_EnableGlow("_EnableGlow", Float) = 1
 		_Vector0("Vector 0", Vector) = (0,0,0,0)
@@ -156,14 +156,14 @@ Shader "New Amplify Shader"
 }
 /*ASEBEGIN
 Version=18900
-1928;31;1904;980;456.9387;396.2617;1;True;False
+1928;31;1904;980;496.4662;405.4007;1;True;False
 Node;AmplifyShaderEditor.TextureCoordinatesNode;2;-134,-174;Inherit;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.Vector2Node;5;-39,-10;Inherit;False;Property;_GlowOffset;GlowOffset;3;0;Create;True;0;0;0;False;0;False;25,25;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
+Node;AmplifyShaderEditor.Vector2Node;5;-39,-10;Inherit;False;Property;_GlowOffset;GlowOffset;3;0;Create;True;0;0;0;False;0;False;15,15;0,0;0;3;FLOAT2;0;FLOAT;1;FLOAT;2
 Node;AmplifyShaderEditor.SimpleAddOpNode;6;148,-69;Inherit;False;2;2;0;FLOAT2;0,0;False;1;FLOAT2;0,0;False;1;FLOAT2;0
 Node;AmplifyShaderEditor.SamplerNode;7;299,-37;Inherit;True;Property;_TextureSample1;Texture Sample 1;4;0;Create;True;0;0;0;False;0;False;-1;37e6f91f3efb0954cbdce254638862ea;37e6f91f3efb0954cbdce254638862ea;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
-Node;AmplifyShaderEditor.ColorNode;3;325,177;Inherit;False;Property;_GlowColor;GlowColor;1;0;Create;True;0;0;0;False;0;False;0.764151,0.764151,0.764151,0;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.ColorNode;3;325,177;Inherit;False;Property;_GlowColor;GlowColor;1;0;Create;True;0;0;0;False;0;False;0.5283019,0.5283019,0.5283019,0.5450981;0,0,0,0;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;8;632,5;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
-Node;AmplifyShaderEditor.RangedFloatNode;4;625,131;Inherit;False;Property;_GlowIntensity;_GlowIntensity;2;0;Create;True;0;0;0;False;0;False;5;0;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;4;625,131;Inherit;False;Property;_GlowIntensity;_GlowIntensity;2;0;Create;True;0;0;0;False;0;False;1;0;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.Vector4Node;12;714.5903,-191.7989;Inherit;False;Property;_Vector0;Vector 0;6;0;Create;True;0;0;0;False;0;False;0,0,0,0;0,0,0,0;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;9;796,6;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.RangedFloatNode;10;807,298;Inherit;False;Property;_EnableGlow;_EnableGlow;5;0;Create;True;0;0;0;False;0;False;1;0;0;0;0;1;FLOAT;0
@@ -186,4 +186,4 @@ WireConnection;13;0;1;0
 WireConnection;13;1;11;0
 WireConnection;0;0;13;0
 ASEEND*/
-//CHKSM=36BC4864A14BE6D65E325D9441E09C7B0712468C
+//CHKSM=EF73FE1213376886E21CC16FC93E3657ED179FB2
