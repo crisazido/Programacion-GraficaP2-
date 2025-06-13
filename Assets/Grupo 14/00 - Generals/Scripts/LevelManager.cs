@@ -42,7 +42,7 @@ public class LevelManager : MonoBehaviour
 
     public void Pixelation()
     {
-        SceneManager.LoadScene("06 - Pixelation");
+        SceneManager.LoadScene("06 - Pixel");
     }
 
     public void Outline()
