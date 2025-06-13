@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Grupo 14/00 - Generals/00 - MainMenu.unity
+    guid: 9d15e5f415cfbf54cb3e99b5030d3cc6
+  - enabled: 1
+    path: Assets/Grupo 14/01 - ShapeMask/01 - ShapeMask.unity
+    guid: 70bdb5efa1d08ba45929a0307e692754
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
