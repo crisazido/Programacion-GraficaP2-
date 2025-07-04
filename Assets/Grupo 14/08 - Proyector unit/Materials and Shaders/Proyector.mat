@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unit
+  m_Name: Proyector
   m_Shader: {fileID: 4800000, guid: d95967391e110e540b6763fe480cd60c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
