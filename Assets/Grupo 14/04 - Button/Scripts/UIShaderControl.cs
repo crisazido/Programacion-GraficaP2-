@@ -3,16 +3,18 @@ using UnityEngine.UI;
 
 public class UIShaderControl : MonoBehaviour
 {
-    public Material material;
-    public Slider intensitySlider;
-    public Toggle enableToggle;
+    [SerializeField] private Material buttonMat;
+    [SerializeField] private Slider angleSlider;
+    [SerializeField] private Slider glowSlider;
+    [SerializeField] private Slider frecuencySlider;
 
     void Update()
     {
-        if (material != null)
+        if (buttonMat != null)
         {
-            material.SetFloat("_GlowIntensity", intensitySlider.value);
-            material.SetFloat("_EnableGlow", enableToggle.isOn ? 1f : 0f);
+            angleSlider?.onValueChanged.AddListener(val => buttonMat.SetFloat("_Angle", val));
+            glowSlider?.onValueChanged.AddListener(val => buttonMat.SetFloat("_Glow", val));
+            frecuencySlider?.onValueChanged.AddListener(val => buttonMat.SetFloat("_Frecuency", val));
         }
     }
 }
