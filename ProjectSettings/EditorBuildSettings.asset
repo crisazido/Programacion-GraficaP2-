@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Grupo 14/02 - GreyScale/02 - GrayScale.unity
     guid: 8ff7447f6dddc0141b5126dd23e5b932
   - enabled: 1
-    path: Assets/Grupo 14/03 - RenderTexture/03 - RenderTexture.unity
+    path: Assets/Grupo 14/03 - RenderTexture/03 - DistanceDef.unity
     guid: 401f7c7b6d6fe2b4bba0d9cc344f8e46
   - enabled: 1
     path: Assets/Grupo 14/04 - Button/04 - Button.unity
