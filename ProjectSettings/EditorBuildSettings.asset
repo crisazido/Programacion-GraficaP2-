@@ -11,5 +11,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Grupo 14/01 - ShapeMask/01 - ShapeMask.unity
     guid: 70bdb5efa1d08ba45929a0307e692754
+  - enabled: 1
+    path: Assets/Grupo 14/02 - GreyScale/02 - GrayScale.unity
+    guid: 8ff7447f6dddc0141b5126dd23e5b932
+  - enabled: 1
+    path: Assets/Grupo 14/03 - RenderTexture/03 - RenderTexture.unity
+    guid: 401f7c7b6d6fe2b4bba0d9cc344f8e46
+  - enabled: 1
+    path: Assets/Grupo 14/04 - Button/04 - Button.unity
+    guid: 952cb30b69655f042857e7782a52bbcc
+  - enabled: 1
+    path: Assets/Grupo 14/05 - Bloom/05 - Bloom.unity
+    guid: e18c677dd0da9744bab816e3665ee316
+  - enabled: 1
+    path: Assets/Grupo 14/06 - Pixel/06 - Pixel.unity
+    guid: d3ab70d636501d04faa1ea59b730ccf8
+  - enabled: 1
+    path: Assets/Grupo 14/07 - Outline/07 - Outline.unity
+    guid: 4620e1bce20c1c040887bc7646b7fa8c
+  - enabled: 1
+    path: Assets/Grupo 14/08 - Proyector unit/08 - Proyector.unity
+    guid: 596edcc4361efcd478146367c182ea7d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

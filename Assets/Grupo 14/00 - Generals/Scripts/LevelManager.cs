@@ -6,70 +6,52 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    public GameObject heightMap;
-    public GameObject vertexPaint;
-    public GameObject fresnelEffect;
-    public GameObject parallaxOcclusionMaping;
-    public GameObject screenWorldSpaceUV;
-    public GameObject toonShading;
-    public GameObject depthFade;
-    public GameObject depthFade2;
-    public GameObject shade;
-    public GameObject shader10;
-    public GameObject toonWater;
+    public GameObject shapeMask;
+    public GameObject greyScale;
+    public GameObject renderTexture;
+    public GameObject button;
+    public GameObject bloom;
+    public GameObject pixelation;
+    public GameObject outline;
+    public GameObject proyector;
 
-    public void HeightMap()
+    public void ShapeMask()
     {
-        SceneManager.LoadScene("HeightMap");
+        SceneManager.LoadScene("01 - ShapeMask");
     }
 
-    public void VertexPaint()
+    public void GreyScale()
     {
-        SceneManager.LoadScene("VertexPaint");
+        SceneManager.LoadScene("02 - GrayScale");
     }
 
-    public void FresnelEffect()
+    public void RenderTexture()
     {
-        SceneManager.LoadScene("FresnelEffect");
+        SceneManager.LoadScene("03 - RenderTexture");
     }
 
-    public void ParallaxOcclusionMaping()
+    public void Button()
     {
-        SceneManager.LoadScene("ParallaxOcclusionMaping");
+        SceneManager.LoadScene("04 - Button");
     }
 
-    public void ScreenWorldSpaceUV()
+    public void Bloom()
     {
-        SceneManager.LoadScene("ScreenWorldSpaceUV");
+        SceneManager.LoadScene("05 - Bloom");
     }
 
-    public void ToonShading()
+    public void Pixelation()
     {
-        SceneManager.LoadScene("ToonShading");
+        SceneManager.LoadScene("06 - Pixel");
     }
 
-    public void DepthFade()
+    public void Outline()
     {
-        SceneManager.LoadScene("DepthFade");
+        SceneManager.LoadScene("07 - Outline");
     }
 
-    public void DepthFade2()
+    public void Proyector()
     {
-        SceneManager.LoadScene("DepthFade2");
-    }
-
-    public void Shade()
-    {
-        SceneManager.LoadScene("Shade");
-    }
-
-    public void Shader10()
-    {
-        SceneManager.LoadScene("Shade10");
-    }
-
-    public void ToonWater()
-    {
-        SceneManager.LoadScene("ToonWater");
+        SceneManager.LoadScene("08 - Proyector");
     }
 }
